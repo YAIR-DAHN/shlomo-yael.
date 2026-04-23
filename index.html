@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הזמנה לחתונה - יעל ושלמה משה</title>
+
+    <!-- הגדרות לתצוגה מקדימה ב- SMS / WhatsApp (Open Graph) -->
+    <meta property="og:title" content="הזמנה לחתונה - יעל ושלמה משה 💍">
+    <meta property="og:description"
+        content="נשמח לראותכם משתתפים בשמחתנו ביום רביעי, כ״ו באייר תשפ״ו, 13.05.2026 באולמי ארי, אור יהודה.">
+    <meta property="og:type" content="website">
+    <!-- שימו לב: כדי שתופיע תמונה בווטסאפ/SMS, יש להחליף את הקישור כאן לקישור ישיר לתמונה שלכם שמאוחסנת ברשת -->
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&family=Frank+Ruhl+Libre:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'serif': ['"Frank Ruhl Libre"', 'serif'],
+                        'sans': ['Assistant', 'sans-serif'],
+                    },
+                    colors: {
+                        'wedding-bg': '#fcfaf8',
+                        'wedding-text': '#4a3f35',
+                        'wedding-gold': '#b59263',
+                        'wedding-gold-light': '#d4bc96',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #f5f0eb;
+            background-image: url('https://images.unsplash.com/photo-1507504031003-b417219a0fde?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 32px 0 rgba(100, 80, 60, 0.15);
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 1s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .delay-1 {
+            animation-delay: 0.2s;
+        }
+
+        .delay-2 {
+            animation-delay: 0.4s;
+        }
+
+        .delay-3 {
+            animation-delay: 0.6s;
+        }
+
+        .delay-4 {
+            animation-delay: 0.8s;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .separator {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #b59263;
+            margin: 1.5rem 0;
+        }
+
+        .separator::before,
+        .separator::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #d4bc96;
+        }
+
+        .separator:not(:empty)::before {
+            margin-left: .5em;
+        }
+
+        .separator:not(:empty)::after {
+            margin-right: .5em;
+        }
+
+        .pulse-btn {
+            animation: pulse-gold 2s infinite;
+        }
+
+        @keyframes pulse-gold {
+            0% {
+                box-shadow: 0 0 0 0 rgba(181, 146, 99, 0.4);
+            }
+
+            70% {
+                box-shadow: 0 0 0 10px rgba(181, 146, 99, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(181, 146, 99, 0);
+            }
+        }
+    </style>
+</head>
+
+<body class="font-sans text-wedding-text antialiased min-h-screen flex items-center justify-center p-4 sm:p-8">
+
+    <div class="glass-card w-full max-w-xl mx-auto rounded-3xl overflow-hidden relative pb-10">
+
+        <!-- עיטור עליון -->
+        <div
+            class="absolute top-0 left-0 w-full h-4 bg-gradient-to-r from-wedding-gold-light via-wedding-gold to-wedding-gold-light opacity-80">
+        </div>
+
+        <div class="px-6 py-10 sm:px-12 text-center">
+
+            <!-- כותרת פתיחה -->
+            <div class="fade-in-up delay-1 mb-8">
+                <p class="text-sm sm:text-base font-semibold mb-2">בסיעתא דשמיא</p>
+                <p class="text-sm sm:text-base text-wedding-gold font-serif">נעלה את ירושלים על ראש שמחתנו<br>בסימן טוב
+                    ובמזל טוב</p>
+            </div>
+
+            <div class="separator text-xl fade-in-up delay-1">✧</div>
+
+            <!-- פתיח -->
+            <div class="fade-in-up delay-2 mb-8 text-sm sm:text-base leading-relaxed">
+                <p>בשבח והודיה להשי"ת<br>על כל הטוב אשר גמלנו</p>
+                <p class="mt-2 font-medium">הננו מתכבדים להזמינכם להשתתף<br>בשמחת כלולות בנינו היקרים</p>
+            </div>
+
+            <!-- שמות בני הזוג -->
+            <div class="fade-in-up delay-2 mb-10 flex flex-col items-center justify-center space-y-4">
+                <div class="w-full">
+                    <p class="font-bold text-lg">הכלה</p>
+                    <h1 class="text-4xl sm:text-5xl font-serif text-wedding-gold mt-1 mb-2">יעל <span
+                            class="text-2xl">תחי'</span></h1>
+                    <p class="text-xs sm:text-sm text-gray-600">בת ר' שלמה גועטה ז"ל</p>
+                </div>
+
+                <div class="text-2xl font-serif text-wedding-gold italic">עב"ג</div>
+
+                <div class="w-full">
+                    <p class="font-bold text-lg">החתן</p>
+                    <h1 class="text-4xl sm:text-5xl font-serif text-wedding-gold mt-1 mb-2">שלמה משה <span
+                            class="text-2xl">נ"י</span></h1>
+                    <p class="text-xs sm:text-sm text-gray-600">בן הרב יוסף שמעון ומלכה פרטוש</p>
+                </div>
+            </div>
+
+            <div class="separator text-xl fade-in-up delay-3">✧</div>
+
+            <!-- פרטי האירוע -->
+            <div class="fade-in-up delay-3 mb-10 space-y-3 font-serif text-lg sm:text-xl">
+                <p class="font-bold">שתתקיים אי"ה בשעה טובה ומוצלחת</p>
+                <p class="text-wedding-gold font-bold">ביום רביעי כ"ו אייר תשפ"ו (13/05/2026)</p>
+                <p class="font-bold">באולמי "ארי"</p>
+                <p class="text-base font-sans">רח' הפלדה 1, אור יהודה</p>
+
+                <div
+                    class="bg-wedding-bg/50 rounded-lg p-4 mt-6 inline-block w-full max-w-sm border border-wedding-gold-light/30">
+                    <div class="flex justify-between items-center mb-2 px-4">
+                        <span class="font-bold">קבלת פנים:</span>
+                        <span class="text-xl">19:00</span>
+                    </div>
+                    <div class="flex justify-between items-center px-4">
+                        <span class="font-bold">חופה וקידושין בעז"ה:</span>
+                        <span class="text-xl text-wedding-gold">19:30</span>
+                    </div>
+                </div>
+            </div>
+
+            <p class="fade-in-up delay-3 text-lg font-serif font-bold text-wedding-text mb-8">
+                נשמח לראותכם משתתפים בשמחתנו!
+            </p>
+
+            <!-- הורים -->
+            <div
+                class="fade-in-up delay-4 flex justify-between text-xs sm:text-sm mt-8 pt-6 border-t border-wedding-gold-light/50 px-2 sm:px-8">
+                <div class="text-right w-1/2 pr-2">
+                    <p class="font-bold mb-1">הורי הכלה</p>
+                    <p>רחל גועטה</p>
+                </div>
+                <div class="text-left w-1/2 pl-2 border-r border-wedding-gold-light/30">
+                    <p class="font-bold mb-1">הורי החתן</p>
+                    <p>הרב יוסף שמעון פרטוש ורעייתו</p>
+                    <p>גב' מלכה פרטוש</p>
+                </div>
+            </div>
+
+            <!-- פעולות / כפתורים -->
+            <div class="fade-in-up delay-4 mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                <!-- ניווט Waze -->
+                <a href="https://waze.com/ul?q=אולמי+ארי+אור+יהודה" target="_blank" rel="noopener noreferrer"
+                    class="flex items-center justify-center gap-2 bg-[#33ccff] hover:bg-[#2cb8e5] text-white py-3 px-4 rounded-xl transition shadow-md font-medium">
+                    <i class="fa-brands fa-waze text-xl"></i>
+                    ניווט עם Waze
+                </a>
+
+                <!-- ניווט Google Maps -->
+                <a href="https://www.google.com/maps/search/?api=1&query=אולמי+ארי+אור+יהודה+הפלדה+1" target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex items-center justify-center gap-2 bg-white hover:bg-gray-50 text-gray-700 py-3 px-4 rounded-xl transition shadow-md border border-gray-200 font-medium">
+                    <i class="fa-solid fa-map-location-dot text-blue-500 text-xl"></i>
+                    ניווט במפות Google
+                </a>
+
+                <!-- שמירה ביומן -->
+                <button onclick="addToCalendar()"
+                    class="flex items-center justify-center gap-2 bg-wedding-gold hover:bg-yellow-700 text-white py-3 px-4 rounded-xl transition shadow-md font-medium sm:col-span-2">
+                    <i class="fa-regular fa-calendar-plus text-xl"></i>
+                    שמירה ביומן Google
+                </button>
+
+                <!-- אישור הגעה בווטסאפ (אופציונלי - החלף את המספר) -->
+                <!-- <a href="https://wa.me/972500000000?text=שלום!%20נשמח%20להגיע%20לחתונה%20של%20יעל%20ושלמה%20משה.%20אנחנו%20מגיעים%20__%20אנשים." target="_blank" rel="noopener noreferrer" 
+                   class="pulse-btn flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white py-4 px-4 rounded-xl transition shadow-lg font-bold sm:col-span-2 mt-4 text-lg">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    לחצו כאן לאישור הגעה
+                </a> -->
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        function addToCalendar() {
+            // פרטי האירוע (זמנים בפורמט UTC. שעון ישראל בקיץ הוא UTC+3. לכן 19:00 זה 16:00)
+            const title = encodeURIComponent("חתונה - יעל ושלמה משה");
+            const details = encodeURIComponent("נשמח לראותכם משתתפים בשמחתנו!\nקבלת פנים: 19:00\nחופה: 19:30");
+            const location = encodeURIComponent("אולמי ארי, הפלדה 1, אור יהודה");
+            // תאריך: 13 במאי 2026. שעת התחלה 16:00 UTC (19:00 ישראל), סיום 21:00 UTC (חצות)
+            const dates = "20260513T160000Z/20260513T210000Z";
+
+            const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${dates}&details=${details}&location=${location}`;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+
+</html>
